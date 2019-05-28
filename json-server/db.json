@@ -1,0 +1,5 @@
+{
+  "Employee": [
+    {"id": 1, "first": "John", "last": "Bull", "post": "management"}
+  ]
+}

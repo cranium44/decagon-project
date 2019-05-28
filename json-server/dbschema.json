@@ -1,0 +1,40 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "title": "Employee db",
+    "description": "a database for the employees in the company",
+    "type": "object",
+
+    "properties": {
+        "id":{
+            "description": "unique id number",
+            "type":"integer"
+        },
+        "employee-name":{
+            "description": "Name of employee",
+            "type":"string",
+            "minLength": 5
+        },
+        "sex":{
+            "description": "sex of employee",
+            "type":"string",
+            "default":"male"
+        },
+        "date-of-birth":{
+            "type":"string"
+        },
+        "address":{
+            "type":"string"
+        },
+        "postid":{
+            "description": "an id telling the post held by employee",
+            "type":"integer"
+        },
+        "payment-status":{
+            "description": "whether employee has been paid or not",
+            "type":"boolean", 
+            "default":false
+        }
+        
+
+    }
+}
