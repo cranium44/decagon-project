@@ -7,7 +7,8 @@
     "properties": {
         "id":{
             "description": "unique id number",
-            "type":"integer"
+            "type":"integer",
+            "minimum": 0
         },
         "employee-name":{
             "description": "Name of employee",
@@ -25,9 +26,10 @@
         "address":{
             "type":"string"
         },
-        "postid":{
+        "post-id":{
             "description": "an id telling the post held by employee",
-            "type":"integer"
+            "type":"integer",
+            "minimum": 0
         },
         "payment-status":{
             "description": "whether employee has been paid or not",
@@ -35,6 +37,7 @@
             "default":false
         }
         
-
-    }
+        
+    },
+    "required":["id", "name", "sex", "date-of-birth", "post-id"]
 }

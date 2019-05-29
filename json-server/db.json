@@ -1,5 +1,84 @@
 {
-  "Employee": [
-    {"id": 1, "first": "John", "last": "Bull", "post": "management"}
-  ]
+  "employees":[{
+    "id": -32722679,
+    "sex": "sit",
+    "date-of-birth": "voluptate ",
+    "post-id": 81854201,
+    "name": false
+  },
+  {
+    "id": 67175680,
+    "sex": "laborum occaecat adipisicing aliqua Duis",
+    "date-of-birth": "consectetur nisi ipsum",
+    "post-id": 78993259,
+    "name": "dolor cupidatat aliquip officia sunt"
+  },
+  {
+    "id": -5328109,
+    "sex": "cupidatat in dolore ad voluptate",
+    "date-of-birth": "occaecat cupidatat",
+    "post-id": 12963851,
+    "name": false
+  },
+  {
+    "id": -981122,
+    "sex": "do dolore amet voluptate sed",
+    "date-of-birth": "in consequat",
+    "post-id": -821312,
+    "name": 76806049
+  },
+  {
+    "id": -29055057,
+    "sex": "consequat ad sit tempor",
+    "date-of-birth": "Ut",
+    "post-id": -21690519,
+    "name": "Ut in in"
+  },
+  {
+    "id": 61896251,
+    "sex": "proident non anim ut",
+    "date-of-birth": "ex",
+    "post-id": 90295456,
+    "name": 64453693
+  },
+  {
+    "id": 51654048,
+    "sex": "magna fugiat qui",
+    "date-of-birth": "laborum commodo aliquip amet",
+    "post-id": -60600493,
+    "name": false
+  },
+  {
+    "id": -38931979,
+    "sex": "est eiusmod",
+    "date-of-birth": "proident veniam",
+    "post-id": -77334236,
+    "name": "ex"
+  },
+  {
+    "id": -63822213,
+    "sex": "Lorem",
+    "date-of-birth": "elit adipisicing eu sed ea",
+    "post-id": -26725400,
+    "name": -1270500.7637618482
+  },
+  {
+    "id": -22460810,
+    "sex": "laboris ad",
+    "date-of-birth": "do fugiat deserunt anim",
+    "post-id": 12749052,
+    "name": "dolore est amet sint"
+  },
+  {
+    "id": 23860033,
+    "sex": "id",
+    "date-of-birth": "labore",
+    "post-id": -21518763,
+    "name": false
+  }
+],
+  "login":{
+    "username" : "admin",
+    "password": "admin"
+  }
 }
