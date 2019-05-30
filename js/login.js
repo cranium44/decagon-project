@@ -11,9 +11,8 @@ $(function(){
             
                 success: function(result){
                     console.log(result);
-                    if (result.username === username) {
-                        console.log('success');
-                        window.location = "pages/main.html"
+                    if ((result.username === username)&&(result.password===password)) {
+                        document.location.href = "pages/main.html";
                     }
                 },
                 error: function(){
