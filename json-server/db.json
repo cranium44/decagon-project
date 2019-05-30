@@ -1,46 +1,28 @@
 {
   "employees": [
     {
-      "id": 67175680,
-      "sex": "laborum occaecat adipisicing aliqua Duis",
-      "date-of-birth": "consectetur nisi ipsum",
-      "post-id": 78993259,
-      "name": "dolor cupidatat aliquip officia sunt"
+      "id": 1,
+      "sex": "male",
+      "date-of-birth": "13/04/1990",
+      "position": "CEO",
+      "name": "Adabe Echaim",
+      "level": 10,
+      "salary": 2000000,
+      "email": "adabeechaim@gmail.com",
+      "qualification": "PhD",
+      "payment-status": false
     },
     {
-      "id": -981122,
-      "sex": "do dolore amet voluptate sed",
-      "date-of-birth": "in consequat",
-      "post-id": -821312,
-      "name": 76806049
-    },
-    {
-      "id": 51654048,
-      "sex": "magna fugiat qui",
-      "date-of-birth": "laborum commodo aliquip amet",
-      "post-id": -60600493,
-      "name": false
-    },
-    {
-      "id": -63822213,
-      "sex": "Lorem",
-      "date-of-birth": "elit adipisicing eu sed ea",
-      "post-id": -26725400,
-      "name": -1270500.7637618482
-    },
-    {
-      "id": -22460810,
-      "sex": "laboris ad",
-      "date-of-birth": "do fugiat deserunt anim",
-      "post-id": 12749052,
-      "name": "dolore est amet sint"
-    },
-    {
-      "id": 23860033,
-      "sex": "id",
-      "date-of-birth": "labore",
-      "post-id": -21518763,
-      "name": false
+      "name": "Joseph Ibrahim",
+      "sex": "Male",
+      "position": "Department Head (Tech)",
+      "date-of-birth": "1988-07-26",
+      "level": "8",
+      "salary": "0",
+      "email": "jagajastic@foo.bar",
+      "qualification": "PhD",
+      "payment-status": "false",
+      "id": 2
     }
   ],
   "login": {
