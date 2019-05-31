@@ -1,5 +1,5 @@
 $(function(){
-    $('#login').on('click', function(){
+    $('#login').click(function(){
         var username = $('#username').val();
         var password = $('#password').val();
         console.log("form input "+username+ " "+password)

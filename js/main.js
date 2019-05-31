@@ -207,7 +207,7 @@ $(function() {
 
     addEmployee(employee);
   });
-  //edit
+  //edit data
   $employeeTable.delegate(".checkEntry", "click", function() {
     let id = $(this).attr("data-id");
     alert(id)
@@ -219,15 +219,7 @@ $(function() {
         success: function (response) {
             let employeeInfo = "";
             $.each(response, function (indexInArray, value) { 
-                employeeInfo += "<h3>Info</h3.>";
-                employeeInfo += "<p>ID: " + value.id + "</p>";
-                employeeInfo += "<p>Name: " + value.name + "</p>";
-                employeeInfo += "<p>Sex: " + value.sex + "</p>";
-                employeeInfo += "<p>Date of Birth: " + value.dateBirth + "</p>";
-                employeeInfo += "<p>Position Held: " + value.position + "</p>";
-                employeeInfo += "<p>Highest Qualification" + value.qualification + "</p>";
-                employeeInfo += "<p>Salary: " + value.salary + "</p>";
-                employeeInfo += "<p>Payment Status: " + value.status + "</p>";
+                
             });
             $('#contentPane').append(employeeInfo);
         }
