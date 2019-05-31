@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main</title>
+    <link rel="stylesheet" href="../css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/w3.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="infoModal" class="w3-modal">
+      <div class="w3-modal-content">
+      
+        <header class="w3-container w3-teal"> 
+          <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+          <h2>Modal Header</h2>
+        </header>
+        <div id = "contentPane" class="w3-container">
+          
+        </div>
+        <footer class="w3-container w3-teal">
+          <p>Modal Footer</p>
+        </footer>
+      
+      </div>
+    </div>
+  <div class="dashboard-main-wrapper">
+      <nav class="navbar navbar-light bg-light">
+          <form class="form-inline">
+            <a href="create.html"><button class="btn btn-outline-success" type="button">Create employee</button></a>
+            <button class="btn btn-outline-success" type="button" id="payall">Pay All</button>
+            <a href="edit.html"><button class="btn btn-outline-success" type="button" data-toggle ="">Edit</button></a>
+              <form class="form-inline my-2 my-lg-0 text-align-right">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="search">
+            </form>
+          </form>
+      </nav>
+      
+      <!--end of navbar-->
+      <!--begin table form-->
+      <div>
+        <table class="table table-hover table-dark table-border table-striped" >
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Name</th>
+              <th scope="col">Sex</th>
+              <th scope="col">DOB</th>
+              <th scope="col">Position</th>
+              <th scope="col">Qualification</th>
+              <th scope="col">Salary</th>
+              <th scope="col">Payment Status</th>
+              <th scope="col">Action</th>
+            </tr> 
+          </thead>
+          <tbody id = "employee" >
+                          
+          </tbody>
+        </table>
+      </div>
+
+    <!-- Modal create employee -->
+  </div>
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+{
+  "employees": [
+    {
+      "name": "Adabe Echaim",
+      "sex": "Male",
+      "position": "CEO",
+      "dateBirth": "1990-04-13",
+      "level": "10",
+      "salary": "2500000",
+      "email": "adabeechaim@gmail.com",
+      "qualification": "PhD",
+      "status": "true",
+      "id": 1
+    },
+    {
+      "name": "Joseph Ibrahim",
+      "sex": "Male",
+      "position": "Department Head (Tech)",
+      "dateBirth": "2019-05-31",
+      "level": "9",
+      "salary": "1500000",
+      "email": "jagajastic@foo.bar",
+      "qualification": "MSc/MA/M.Ed",
+      "status": "true",
+      "id": 2
+    },
+    {
+      "name": "Rufina Eze",
+      "sex": "Female",
+      "position": "Accountant",
+      "dateBirth": "2009-11-27",
+      "level": "7",
+      "salary": "350000",
+      "email": "rufyeze@foo.bar",
+      "qualification": "BSc/BA/B.Ed",
+      "status": "true",
+      "id": 3
+    },
+    {
+      "name": "Jones Decagon",
+      "sex": "Male",
+      "position": "Vice President",
+      "dateBirth": "1961-06-30",
+      "level": "9",
+      "salary": "1500000",
+      "email": "jonesd@xyz.com",
+      "qualification": "PhD",
+      "status": "true",
+      "id": 4
+    },
+    {
+      "name": "Chukwudi Borno",
+      "sex": "Male",
+      "position": "Department Head (Admin)",
+      "dateBirth": "2019-05-31",
+      "level": "8",
+      "salary": "670000",
+      "email": "sitemugu@xyz.com",
+      "qualification": "MSc/MA/M.Ed",
+      "status": "true",
+      "id": 5
+    },
+    {
+      "name": "Jon Snow",
+      "sex": "Male",
+      "position": "King of The North",
+      "dateBirth": "1987-12-31",
+      "level": "5",
+      "salary": "170000",
+      "email": "jonsnow@fgh.com",
+      "qualification": "HND",
+      "status": "true",
+      "id": 6
+    }
+  ],
+  "login": {
+    "username": "admin",
+    "password": "admin"
+  }
+}

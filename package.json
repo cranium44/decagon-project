@@ -1,0 +1,19 @@
+{
+  "name": "decagon-project",
+  "version": "1.0.0",
+  "description": "project for Decagon bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cranium44/decagon-project.git"
+  },
+  "author": "Adabe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cranium44/decagon-project/issues"
+  },
+  "homepage": "https://github.com/cranium44/decagon-project#readme"
+}
