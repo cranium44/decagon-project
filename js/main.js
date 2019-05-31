@@ -143,11 +143,11 @@ function payAllEmployees() {
     $.getJSON(dbURL,
         function (response) {
             $.each(response, function (indexInArray, valueOfElement) { 
-                 if(valueOfElement.status === false){
-                     valueOfElement.status === true;
+                 if(valueOfElement.status == false){
+                     valueOfElement.status = true;
                      $.ajax({
                          type: "PUT",
-                         url: dbURL,
+                         url: dbURL+"/"+valueOfElement.id,
                          data: response,
                          
                          success: function (response) {
@@ -177,12 +177,6 @@ $(function() {
       .remove();
   });
 
-  //LAUNCH MODAL (NONFUNCTIONAL)
-  $("#loadModal").on("click", function(e) {
-    e.preventDefault();
-    $("#createEmployee").modal("show");
-  });
-
   //REGISTER EMPLOYEE
   $("#submit").on("click", function() {
     var name = $("#name").val();
@@ -207,24 +201,61 @@ $(function() {
 
     addEmployee(employee);
   });
-  //edit data
-  $employeeTable.delegate(".checkEntry", "click", function() {
-    let id = $(this).attr("data-id");
-    alert(id)
-    var $modal = $('#infoModal')
+
+  //UPDATE EMPLOYEE
+  $("#submit2").on("click", function() {
+    var id = $('#id').val();
+    var name = $("#name2").val();
+    var sex = $("#sex2").val();
+    var position = $("#position2").val();
+    var dateOfBirth = $("#birthDate2").val();
+    var level = $("#level2").val();
+    var email = $("#email2").val();
+    var qualification = $("#qualification2").val();
+
+    let employee = {
+      name: name,
+      sex: sex,
+      position: position,
+      dateBirth: dateOfBirth,
+      level: level,
+      salary: getSalary(level),
+      email: email,
+      qualification: qualification,
+      status: false
+    };
+
+    console.log(employee);
+    
     $.ajax({
         type: "GET",
-        url: dbURL+'/'+id,
+        url: dbURL,
        
         success: function (response) {
-            let employeeInfo = "";
+          console.log(response);
             $.each(response, function (indexInArray, value) { 
-                
+              console.log(id +" "+value.id)
+               if(id == value.id){
+                 console.log("passed condition")
+                 $.ajax({
+                   type: "PUT",
+                   url: dbURL+"/"+id,
+                   data: employee,
+                   
+                   success: function (response) {
+                     console.log('success');
+                     
+                   },
+                    error: function (response) {
+                      console.error(response);
+                      
+                    }
+                    
+                 });
+               } 
             });
-            $('#contentPane').append(employeeInfo);
         }
     });
-    $modal.style.dislay = block;
   });
 
  

@@ -61,14 +61,14 @@
       "id": 5
     },
     {
-      "name": "Sag Felicity",
-      "sex": "Female",
-      "position": "Cleaner",
-      "dateBirth": "2019-05-08",
-      "level": "3",
-      "salary": "80000",
-      "email": "babane@xyz.com",
-      "qualification": "WASSCE",
+      "name": "Jon Snow",
+      "sex": "Male",
+      "position": "King of The North",
+      "dateBirth": "1987-12-31",
+      "level": "5",
+      "salary": "170000",
+      "email": "jonsnow@fgh.com",
+      "qualification": "HND",
       "status": "false",
       "id": 6
     }
