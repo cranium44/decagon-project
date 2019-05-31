@@ -1,28 +1,76 @@
 {
   "employees": [
     {
-      "id": 1,
-      "sex": "male",
-      "date-of-birth": "13/04/1990",
-      "position": "CEO",
       "name": "Adabe Echaim",
-      "level": 10,
-      "salary": 2000000,
+      "sex": "Male",
+      "position": "CEO",
+      "dateBirth": "1990-04-13",
+      "level": "10",
+      "salary": "2500000",
       "email": "adabeechaim@gmail.com",
       "qualification": "PhD",
-      "payment-status": false
+      "status": "false",
+      "id": 1
     },
     {
       "name": "Joseph Ibrahim",
       "sex": "Male",
       "position": "Department Head (Tech)",
-      "date-of-birth": "1988-07-26",
-      "level": "8",
-      "salary": "0",
+      "dateBirth": "2019-05-31",
+      "level": "9",
+      "salary": "1500000",
       "email": "jagajastic@foo.bar",
-      "qualification": "PhD",
-      "payment-status": "false",
+      "qualification": "MSc/MA/M.Ed",
+      "status": "false",
       "id": 2
+    },
+    {
+      "name": "Rufina Eze",
+      "sex": "Female",
+      "position": "Accountant",
+      "dateBirth": "2009-11-27",
+      "level": "7",
+      "salary": "350000",
+      "email": "rufyeze@foo.bar",
+      "qualification": "BSc/BA/B.Ed",
+      "status": "false",
+      "id": 3
+    },
+    {
+      "name": "Jones Decagon",
+      "sex": "Male",
+      "position": "Vice President",
+      "dateBirth": "1961-06-30",
+      "level": "9",
+      "salary": "1500000",
+      "email": "jonesd@xyz.com",
+      "qualification": "PhD",
+      "status": "false",
+      "id": 4
+    },
+    {
+      "name": "Chukwudi Borno",
+      "sex": "Male",
+      "position": "Department Head (Admin)",
+      "dateBirth": "2019-05-31",
+      "level": "8",
+      "salary": "670000",
+      "email": "sitemugu@xyz.com",
+      "qualification": "MSc/MA/M.Ed",
+      "status": "false",
+      "id": 5
+    },
+    {
+      "name": "Sag Felicity",
+      "sex": "Female",
+      "position": "Cleaner",
+      "dateBirth": "2019-05-08",
+      "level": "3",
+      "salary": "80000",
+      "email": "babane@xyz.com",
+      "qualification": "WASSCE",
+      "status": "false",
+      "id": 6
     }
   ],
   "login": {

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Employee</title>
+    <link rel="stylesheet" href="../css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form class="form-horizontal" role="form">
+            <h1>Edit Employee</h1>
+            <h3>Items that are not to be edited should not be changed</h3>
+            <div class="form-group">
+                <label for="name" class="col-sm-3 control-label">Full Name</label>
+                <div class="col-sm-9">
+                    <input type="text" id="name2" placeholder="Full Name" class="form-control" autofocus>
+                </div>
+            </div>
+            <div class="form-group input-group mb-3 col-sm-9">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Qualification</label>
+                </div>
+                <select class="custom-select" id="qualification2">
+                  <option selected>Choose highest qualification...</option>
+                  <option value="WASSCE">WASSCE</option>
+                  <option value="HND">HND</option>
+                  <option value="BSc/BA/B.Ed">BSc/BA/B.Ed</option>
+                  <option value="MSc/MA/M.Ed">MSc/MA/M.Ed</option>
+                  <option value="PhD">PhD</option>
+                </select>
+            </div>
+            <div class="form-group input-group mb-3 col-sm-9">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Level</label>
+                </div>
+                <select class="custom-select" id="level2">
+                  <option selected>Choose salary grade level...</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="password" class="col-sm-3 control-label">Position</label>
+                <div class="col-sm-9">
+                    <input type="text" id="position2" placeholder="Position" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="birthDate" class="col-sm-3 control-label">Date of Birth*</label>
+                <div class="col-sm-9">
+                    <input type="date" id="birthDate2" class="form-control">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber" class="col-sm-3 control-label">Email </label>
+                <div class="col-sm-9">
+                    <input type="email" id="email2" placeholder="Email" class="form-control">
+                </div>
+            </div>
+            <div class="form-group input-group mb-3 col-sm-9">
+                <div class="input-group-prepend">
+                  <label class="input-group-text" for="inputGroupSelect01">Gender</label>
+                </div>
+                <select class="custom-select" id="sex2">
+                  <option selected>Choose gender...</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+            </div>
+            <!-- /.form-group -->
+            <div class="form-group">
+                <div class="col-sm-9 col-sm-offset-3">
+                    <span class="help-block">All Fields are Required</span>
+                </div>
+            </div>
+            <button type="button" class="btn btn-primary btn-block" id="submit2">Register</button>
+        </form> <!-- /form -->
+    </div> <!-- ./container -->
+    <script src="../js/main.js"></script>
+</body>
+</html>

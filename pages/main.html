@@ -2,29 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Main</title>
     <link rel="stylesheet" href="../css/bootstrap-4.3.1-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/w3.css">
     <link rel="stylesheet" href="../css/main.css">
     <script src="../css/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div id="infoModal" class="w3-modal">
+      <div class="w3-modal-content">
+      
+        <header class="w3-container w3-teal"> 
+          <span onclick="document.getElementById('id01').style.display='none'" 
+            class="w3-button w3-display-topright">&times;</span>
+          <h2>Modal Header</h2>
+        </header>
+        <div id = "contentPane" class="w3-container">
+          
+        </div>
+        <footer class="w3-container w3-teal">
+          <p>Modal Footer</p>
+        </footer>
+      
+      </div>
+    </div>
   <div class="dashboard-main-wrapper">
       <nav class="navbar navbar-light bg-light">
           <form class="form-inline">
             <a href="create.html"><button class="btn btn-outline-success" type="button">Create employee</button></a>
-            <button class="btn btn-outline-success" type="button">Main button</button>
-            <button class="btn btn-outline-success" type="button">Main button</button>
-            <form class="form-inline my-2 my-lg-0 text-align-right">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-success" type="button" id="payall">Pay All</button>
+            <a href="edit.html"><button class="btn btn-outline-success" type="button" data-toggle ="">Edit</button></a>
+              <form class="form-inline my-2 my-lg-0 text-align-right">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" id="search">
             </form>
           </form>
       </nav>
+      
       <!--end of navbar-->
       <!--begin table form-->
       <div>
-        <table class="table table-hover table-dark" >
+        <table class="table table-hover table-dark table-border table-striped" >
           <thead>
             <tr>
               <th scope="col">ID</th>
