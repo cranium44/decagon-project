@@ -9,7 +9,7 @@
       "salary": "2500000",
       "email": "adabeechaim@gmail.com",
       "qualification": "PhD",
-      "status": "false",
+      "status": "true",
       "id": 1
     },
     {
@@ -21,7 +21,7 @@
       "salary": "1500000",
       "email": "jagajastic@foo.bar",
       "qualification": "MSc/MA/M.Ed",
-      "status": "false",
+      "status": "true",
       "id": 2
     },
     {
@@ -33,7 +33,7 @@
       "salary": "350000",
       "email": "rufyeze@foo.bar",
       "qualification": "BSc/BA/B.Ed",
-      "status": "false",
+      "status": "true",
       "id": 3
     },
     {
@@ -45,7 +45,7 @@
       "salary": "1500000",
       "email": "jonesd@xyz.com",
       "qualification": "PhD",
-      "status": "false",
+      "status": "true",
       "id": 4
     },
     {
@@ -57,7 +57,7 @@
       "salary": "670000",
       "email": "sitemugu@xyz.com",
       "qualification": "MSc/MA/M.Ed",
-      "status": "false",
+      "status": "true",
       "id": 5
     },
     {
@@ -69,7 +69,7 @@
       "salary": "170000",
       "email": "jonsnow@fgh.com",
       "qualification": "HND",
-      "status": "false",
+      "status": "true",
       "id": 6
     }
   ],

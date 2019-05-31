@@ -143,12 +143,12 @@ function payAllEmployees() {
     $.getJSON(dbURL,
         function (response) {
             $.each(response, function (indexInArray, valueOfElement) { 
-                 if(valueOfElement.status == false){
-                     valueOfElement.status = true;
+                 if(valueOfElement.status == "false"){
+                     valueOfElement.status = "true";
                      $.ajax({
                          type: "PUT",
                          url: dbURL+"/"+valueOfElement.id,
-                         data: response,
+                         data: valueOfElement,
                          
                          success: function (response) {
                              console.log('sucess')
@@ -166,9 +166,11 @@ function payAllEmployees() {
 
 //document ready
 $(function() {
+  //DISPLAY ALL EMPLOYEES
   let $employeeTable = $("#employee");
   updateEmployeeTable();
 
+  //DELETE EMPLOYEE
   $employeeTable.delegate(".deleteEntry", "click", function() {
     let id = $(this).attr("data-id");
     deleteEmployee(id);
@@ -221,8 +223,8 @@ $(function() {
       level: level,
       salary: getSalary(level),
       email: email,
-      qualification: qualification,
-      status: false
+      qualification: qualification
+      
     };
 
     console.log(employee);
@@ -243,7 +245,7 @@ $(function() {
                    data: employee,
                    
                    success: function (response) {
-                     console.log('success');
+                     window.location.href = "main.html"
                      
                    },
                     error: function (response) {
@@ -259,11 +261,12 @@ $(function() {
   });
 
  
-
+  //SEARCH EMPLOYEE
   $("#search").keydown(function(e) {
     var search = $("#search").val();
     searchEmployee(search);
   });
+
   //PAY ALL EMPLOYEES
   $("#payall").on("click", function() {
     payAllEmployees();
